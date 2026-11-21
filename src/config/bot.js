@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         name: "/help | /play music", // required by Discord API, not shown in the client
-        state: "",     // this is what people actually see
+        state: "/help | /play music",     // this is what people actually see
         type: 0,               // Custom
       },
     ],
